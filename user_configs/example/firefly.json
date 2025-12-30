@@ -1,0 +1,17 @@
+{
+    "USERNAME": "Trailblazer",
+    "PWD": "123456",
+    "ID": "firefly",
+    "DATA_PATH": "/home/user/Coser/data/Trailblazer/firefly.json",
+    "WEIGHT_PATH": "/home/user/Coser/weights",
+    "MODEL_PATH": "/home/user/KGProject/models/deepseek-r1-8b",
+    "DEFAULT_LORA_PARAMS": {
+        "lora_r": 4,
+        "lora_alpha": 8,
+        "lora_dropout": 0.1,
+        "batch_size": 4,
+        "learning_rate": 0.0002,
+        "epochs": 3,
+        "max_seq_len": 512
+    }
+}

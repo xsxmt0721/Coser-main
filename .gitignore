@@ -1,0 +1,52 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 编辑器/IDE
+.vscode/
+.idea/
+
+# 日志与运行时输出
+logs/
+!logs/example/
+!logs/example/**
+*.log
+
+# 数据缓存与临时文件
+data/
+!data/example/
+!data/example/**
+!data/Cache/
+!data/Cache/**
+tmp/
+temp/
+
+# 模型权重与中间 checkpoint
+weights/
+!weights/example/
+!weights/example/**
+
+# 用户配置（如果需要保留example）
+user_config/
+!user_config/users.json
+!user_config/example/
+!user_config/example/**
+
+# Python 包管理
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
